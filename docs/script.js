@@ -74,7 +74,6 @@ $(document).ready(function(){
                 let jump_space = board[jump_y][jump_x];
 
                 if (mid_piece === opponent && !jump_space) {
-                    jump_found = true;
                     if (coordsOnly){
                         result.push([jump_y, jump_x]);
                     }
